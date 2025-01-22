@@ -1,0 +1,41 @@
+{
+  "name": "jwt-pro",
+  "version": "1.0.0",
+  "description": "jwt-pro is a powerful library for generating and verifying JSON Web Tokens (JWTs). It supports multiple algorithms, provides easy to use utilities for token management, and ensures secure handling of JWTs.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishnatadi/jwt-pro.git"
+  },
+  "keywords": [
+    "jwt",
+    "authentication",
+    "token",
+    "jsonwebtoken",
+    "security",
+    "token-verification",
+    "jwt-generation",
+    "jwt-pro",
+    "json-web-token",
+    "jwtpro"
+  ],
+  "author": {
+    "name": "Krishna Tadi",
+    "url": "https://krishnatadi.github.io/portfolio"
+  },
+  "license": "MIT",
+  "types": "./index.d.ts",
+  "bugs": {
+    "url": "https://github.com/krishnatadi/jwt-pro/issues"
+  },
+  "homepage": "https://github.com/krishnatadi/jwt-pro#readme",
+  "dependencies": {
+    "alluuid": "^1.0.1"
+  }
+}
