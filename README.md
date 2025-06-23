@@ -231,7 +231,7 @@ To use **jwt-pro** in a browser directly:
   const decoded = jwtDecode(token);
   console.log(decoded);
 </script>
-
+```
 > Note: Make sure you generate the browser bundle using a bundler like esbuild or rollup, and place it in your dist/ folder.
 
 ---
