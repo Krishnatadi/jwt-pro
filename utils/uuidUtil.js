@@ -5,7 +5,7 @@ const { uniqueIDGenerator } = require("alluuid");
  * @returns {string} UUID string.
  */
 function generateUUID() {
-  return uniqueIDGenerator.version4();
+  return uniqueIDGenerator.uuidv4();
 }
 
 module.exports = { generateUUID };
